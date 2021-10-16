@@ -1,0 +1,14 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+##### Altium
+History/
+__Previews
+*.PrjPCBStructure
+*.PrjPcbStructure
+
+*.SchDocPreview
+*.PcbDocPreview
+Project Outputs for *
+Project Logs for *
+*.htm
+*.dat
