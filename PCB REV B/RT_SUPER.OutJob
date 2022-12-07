@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=RT_SUPER.OutJob
 Description=
-TargetOutputMedium=Schematics - CCA CB
+TargetOutputMedium=3D PDF
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -41,7 +41,7 @@ OutputMedium7=PICK-PLACE
 OutputMedium7_Type=GeneratedFiles
 OutputMedium8=3D PDF
 OutputMedium8_Type=Publish
-OutputMedium9=Schematics - CCA CB
+OutputMedium9=Schematics - CCA B
 OutputMedium9_Type=Publish
 OutputType1=Gerber
 OutputName1=Gerber Files
@@ -84,7 +84,7 @@ OutputName3=Schematic Prints - CCA  REV B
 OutputCategory3=Documentation
 OutputDocumentPath3=[Project Physical Documents]
 OutputVariantName3=B
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
@@ -173,7 +173,7 @@ OutputName7=CCA PDF3D
 OutputCategory7=Documentation
 OutputDocumentPath7=
 OutputVariantName7=B
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -276,13 +276,13 @@ Configuration11_Item7=Designator=100|Fitted=100|Manufacturer Part Number=100|Pac
 OutputFilePath2=C:\ELI\rt_super\PCB REV B\BUILD\RT_SUPER-[B]\
 ReleaseManaged2=0
 OutputBasePath2=BUILD\
-OutputPathMedia2==PCB_PART_NUMBER + '-['+PCB_VERSION+']'
-OutputPathMediaValue2==PCB_PART_NUMBER + '-['+PCB_VERSION+']'
+OutputPathMedia2==PCB_PART_NUMBER + '_'+PCB_VERSION
+OutputPathMediaValue2==PCB_PART_NUMBER + '_'+PCB_VERSION
 OutputPathOutputer2=[Output Custom]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=GERBERS
 OutputFileName2=
-OutputFileNameMulti2==PCB_PART_NUMBER + '-['+PCB_VERSION+']'
+OutputFileNameMulti2==PCB_PART_NUMBER + '_'+PCB_VERSION
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=0
@@ -379,18 +379,18 @@ OutputFileNameMulti7==CCA_PART_NUMBER + '-['+VariantName+'] Pick-Place'
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=1
-OutputFilePath8=C:\ELI\SmartBrew\PCB\tz-sb-0001-hydroscope-mainboard\PCB REV A\BUILD\TZ-SB-0001-[VariantName]\TZ-SB-0001-[VariantName] 3D View.PDF
+OutputFilePath8=C:\ELI\rt_super\PCB REV B\BUILD\RT_SUPER-[VariantName]\RT_SUPER-[VariantName] 3D View.PDF
 ReleaseManaged8=0
 OutputBasePath8=BUILD\
-OutputPathMedia8==CCA_PART_NUMBER + '-[' + VariantName + ']'
-OutputPathMediaValue8==CCA_PART_NUMBER + '-[' + VariantName + ']'
+OutputPathMedia8==CCA_PART_NUMBER + '_' + VariantName
+OutputPathMediaValue8==CCA_PART_NUMBER + '_' + VariantName
 OutputPathOutputer8=[Output Type]
 OutputPathOutputerPrefix8=
 OutputPathOutputerValue8=
-OutputFileName8=[TZ-SB-0001] [A] (HydroScope Mainboard).PDF
+OutputFileName8=RT_SUPER.PDF
 OutputFileNameMulti8=
 UseOutputNameForMulti8=0
-OutputFileNameSpecial8==CCA_PART_NUMBER + '-['+VariantName+'] 3D View'
+OutputFileNameSpecial8==CCA_PART_NUMBER + '_' + VariantName+' 3D View'
 OpenOutput8=1
 PromptOverwrite8=1
 PublishMethod8=0
@@ -406,18 +406,18 @@ ShowComponentParameters8=1
 GlobalBookmarks8=0
 PDFACompliance8=Disabled
 PDFVersion8=Default
-OutputFilePath9=C:\ELI\SmartBrew\PCB\tz-sb-0001-hydroscope-mainboard\PCB REV A\SCHEMATICS\TZ-SB-0001-[VariantName]\TZ-SB-0001-[VariantName] Schematics.PDF
+OutputFilePath9=C:\ELI\rt_super\PCB REV B\SCHEMATICS\RT_SUPER-[VariantName]\RT_SUPER-[VariantName] Schematics.PDF
 ReleaseManaged9=0
 OutputBasePath9=SCHEMATICS\
-OutputPathMedia9==CCA_PART_NUMBER + '-[' + VariantName + ']'
-OutputPathMediaValue9==CCA_PART_NUMBER + '-[' + VariantName + ']'
+OutputPathMedia9==CCA_PART_NUMBER  + '_' + VariantName
+OutputPathMediaValue9==CCA_PART_NUMBER  + '_' + VariantName
 OutputPathOutputer9=[Output Type]
 OutputPathOutputerPrefix9=
 OutputPathOutputerValue9=
-OutputFileName9=[TZ-SB-0001] [A] (HydroScope Mainboard).PDF
+OutputFileName9=RT_SUPER.PDF
 OutputFileNameMulti9=
 UseOutputNameForMulti9=0
-OutputFileNameSpecial9==CCA_PART_NUMBER + '-['+VariantName+'] Schematics'
+OutputFileNameSpecial9==CCA_PART_NUMBER + '_'+VariantName+' Schematics'
 OpenOutput9=1
 PromptOverwrite9=1
 PublishMethod9=0
@@ -479,8 +479,8 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=C:\ELI\SmartBrew\PCB\tz-sb-0001-hydroscope-mainboard\PCB REV A\BUILD\TZ-SB-0001-[VariantName]\TZ-SB-0001-[VariantName] 3D View.PDF
+RelativeOutputPath8=C:\ELI\rt_super\PCB REV B\BUILD\RT_SUPER-[VariantName]\RT_SUPER-[VariantName] 3D View.PDF
 OpenOutputs8=1
-RelativeOutputPath9=C:\ELI\SmartBrew\PCB\tz-sb-0001-hydroscope-mainboard\PCB REV A\SCHEMATICS\TZ-SB-0001-[VariantName]\TZ-SB-0001-[VariantName] Schematics.PDF
+RelativeOutputPath9=C:\ELI\rt_super\PCB REV B\SCHEMATICS\RT_SUPER-[VariantName]\RT_SUPER-[VariantName] Schematics.PDF
 OpenOutputs9=1
 
