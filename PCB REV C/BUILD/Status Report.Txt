@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 3:45:48 PM On 1/8/2023
+
+Output: CCA Assembly BOM
+Type  : BOM
+From  : Variant [C] of Project [RT_SUPER_C.PrjPcb]
+   Generated File[RT_SUPERC Assembly BOM.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 3:45:58 PM On 1/8/2023

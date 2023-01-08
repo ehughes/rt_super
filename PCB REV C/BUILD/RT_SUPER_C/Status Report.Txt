@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [RT_SUPER_C.PCBdoc]
+   Generated File[RT_SUPER_C.TXT]
+   Generated File[RT_SUPER_C.LDP]
+   Generated File[RT_SUPER_C.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:45:17 PM On 1/8/2023

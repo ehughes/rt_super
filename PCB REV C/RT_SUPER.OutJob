@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=RT_SUPER.OutJob
 Description=
-TargetOutputMedium=3D PDF
+TargetOutputMedium=Assembly Drawings
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -46,7 +46,7 @@ OutputMedium9_Type=Publish
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
-OutputDocumentPath1=RT_SUPER_B.PCBdoc
+OutputDocumentPath1=RT_SUPER_C.PCBdoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -64,7 +64,7 @@ Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
-OutputDocumentPath2=RT_SUPER_B.PCBdoc
+OutputDocumentPath2=RT_SUPER_C.PCBdoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -102,7 +102,7 @@ OutputType4=Pick Place
 OutputName4=Generates pick and place files
 OutputCategory4=Assembly
 OutputDocumentPath4=
-OutputVariantName4=B
+OutputVariantName4=C
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
@@ -120,8 +120,8 @@ OutputType5=PCBDrawing
 OutputName5=CCA Assembly Drawing
 OutputCategory5=Documentation
 OutputDocumentPath5=RT_SUPER.PCBDwf
-OutputVariantName5=B
-OutputEnabled5=0
+OutputVariantName5=C
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
@@ -137,7 +137,7 @@ OutputType6=BOM_PartType
 OutputName6=CCA Assembly BOM
 OutputCategory6=Report
 OutputDocumentPath6=[ActiveBOM Document]
-OutputVariantName6=B
+OutputVariantName6=C
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
@@ -173,7 +173,7 @@ OutputName7=CCA PDF3D
 OutputCategory7=Documentation
 OutputDocumentPath7=
 OutputVariantName7=B
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -207,7 +207,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType9=ODB
 OutputName9=ODB++ Files
 OutputCategory9=Fabrication
-OutputDocumentPath9=RT_SUPER_B.PCBdoc
+OutputDocumentPath9=RT_SUPER_C.PCBdoc
 OutputVariantName9=
 OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
@@ -240,40 +240,9 @@ OutputEnabled10_OutputMedium9=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=Record=NonNativeFiles
-OutputType11=BOM_PartType
-OutputName11=MACROFAB BOM
-OutputCategory11=Report
-OutputDocumentPath11=[ActiveBOM Document]
-OutputVariantName11=B
-OutputEnabled11=0
-OutputEnabled11_OutputMedium1=0
-OutputEnabled11_OutputMedium2=0
-OutputEnabled11_OutputMedium3=0
-OutputEnabled11_OutputMedium4=0
-OutputEnabled11_OutputMedium5=0
-OutputEnabled11_OutputMedium6=0
-OutputEnabled11_OutputMedium7=0
-OutputEnabled11_OutputMedium8=0
-OutputEnabled11_OutputMedium9=0
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration11_Name1=ColumnNameFormat
-Configuration11_Item1=CaptionAsName
-Configuration11_Name2=General
-Configuration11_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1512|FormHeight=975|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
-Configuration11_Name3=GroupOrder
-Configuration11_Item3=
-Configuration11_Name4=VisibleOrder
-Configuration11_Item4=Designator=100|Fitted=100|Manufacturer Part Number=100|Package=100|Value=100
-Configuration11_Name5=VisibleOrder_Base
-Configuration11_Item5=Line #=54|Value=100|Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
-Configuration11_Name6=VisibleOrder_Consolidated
-Configuration11_Item6=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122|Quantity@B=100|Price@B=100|Quantity@A=100|Price@A=100
-Configuration11_Name7=VisibleOrder_Flat
-Configuration11_Item7=Designator=100|Fitted=100|Manufacturer Part Number=100|Package=100|Value=100
 
 [PublishSettings]
-OutputFilePath2=C:\ELI\rt_super\PCB REV B\BUILD\RT_SUPER-[B]\
+OutputFilePath2=C:\ELI\rt_super\PCB REV C\BUILD\RT_SUPER_C\
 ReleaseManaged2=0
 OutputBasePath2=BUILD\
 OutputPathMedia2==PCB_PART_NUMBER + '_'+PCB_VERSION
@@ -326,31 +295,31 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\ELI\rt_super\PCB REV B\BUILD\
+OutputFilePath5=C:\ELI\rt_super\PCB REV C\BUILD\
 ReleaseManaged5=0
 OutputBasePath5=BUILD\
 OutputPathMedia5=
 OutputPathMediaValue5=
 OutputPathOutputer5=[Output Custom]
 OutputPathOutputerPrefix5=
-OutputPathOutputerValue5==CCA_PART_NUMBER + '-[' + VariantName + ']'
+OutputPathOutputerValue5==CCA_PART_NUMBER +  VariantName 
 OutputFileName5=
-OutputFileNameMulti5==CCA_PART_NUMBER + '-['+VariantName+'] Assembly BOM'
+OutputFileNameMulti5==CCA_PART_NUMBER + VariantName +' Assembly BOM'
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
-OutputFilePath6=C:\ELI\SmartBrew\PCB\tz-sb-0001-hydroscope-mainboard\PCB REV A\BUILD\TZ-SB-0001-[VariantName]\TZ-SB-0001-[VariantName] Assembly Drawing.PDF
+OutputFilePath6=C:\ELI\rt_super\PCB REV C\BUILD\RT_SUPER_VariantName\RT_SUPER_VariantName Assembly Drawing.PDF
 ReleaseManaged6=0
 OutputBasePath6=BUILD\
-OutputPathMedia6==CCA_PART_NUMBER + '-[' + VariantName + ']'
-OutputPathMediaValue6==CCA_PART_NUMBER + '-[' + VariantName + ']'
+OutputPathMedia6==CCA_PART_NUMBER + '_' + VariantName 
+OutputPathMediaValue6==CCA_PART_NUMBER + '_' + VariantName 
 OutputPathOutputer6=[Output Type]
 OutputPathOutputerPrefix6=
 OutputPathOutputerValue6=
-OutputFileName6=[TZ-SB-0001] [A] (HydroScope Mainboard).PDF
+OutputFileName6=RT_SUPER.PDF
 OutputFileNameMulti6=
 UseOutputNameForMulti6=0
-OutputFileNameSpecial6==CCA_PART_NUMBER + '-['+VariantName+'] Assembly Drawing'
+OutputFileNameSpecial6==CCA_PART_NUMBER + '_'+VariantName+' Assembly Drawing'
 OpenOutput6=1
 PromptOverwrite6=1
 PublishMethod6=0
@@ -366,16 +335,16 @@ ShowComponentParameters6=1
 GlobalBookmarks6=0
 PDFACompliance6=Disabled
 PDFVersion6=Default
-OutputFilePath7=C:\ELI\rt_super\PCB REV B\BUILD\RT_SUPER-[VariantName]\
+OutputFilePath7=C:\ELI\rt_super\PCB REV C\BUILD\RT_SUPER_VariantName\
 ReleaseManaged7=0
 OutputBasePath7=BUILD\
-OutputPathMedia7==CCA_PART_NUMBER + '-[' + VariantName + ']'
-OutputPathMediaValue7==CCA_PART_NUMBER + '-[' + VariantName + ']'
+OutputPathMedia7==CCA_PART_NUMBER +  '_' + VariantName 
+OutputPathMediaValue7==CCA_PART_NUMBER +  '_' + VariantName 
 OutputPathOutputer7=
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
 OutputFileName7=
-OutputFileNameMulti7==CCA_PART_NUMBER + '-['+VariantName+'] Pick-Place'
+OutputFileNameMulti7==CCA_PART_NUMBER +'_' +VariantName+' Pick-Place'
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=1
@@ -435,7 +404,7 @@ PDFACompliance9=Disabled
 PDFVersion9=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\ELI\rt_super\PCB REV B\BUILD\RT_SUPER-[B]\
+RelativeOutputPath2=C:\ELI\rt_super\PCB REV C\BUILD\RT_SUPER_C\
 OpenOutputs2=0
 AddToProject2=0
 TimestampFolder2=0
@@ -457,7 +426,7 @@ OpenIPCOutput3=0
 EnableReload3=1
 RelativeOutputPath4=C:\ELI\SmartBrew\PCB\tz-sb-0001-hydroscope-mainboard\PCB REV A\BUILD\TZ-SB-0001-PCB-[A]\TZ-SB-0001-PCB-[VariantName] PCB Fab Notes.PDF
 OpenOutputs4=1
-RelativeOutputPath5=C:\ELI\rt_super\PCB REV B\BUILD\
+RelativeOutputPath5=C:\ELI\rt_super\PCB REV C\BUILD\
 OpenOutputs5=1
 AddToProject5=0
 TimestampFolder5=0
@@ -467,9 +436,9 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
-RelativeOutputPath6=C:\ELI\SmartBrew\PCB\tz-sb-0001-hydroscope-mainboard\PCB REV A\BUILD\TZ-SB-0001-[VariantName]\TZ-SB-0001-[VariantName] Assembly Drawing.PDF
+RelativeOutputPath6=C:\ELI\rt_super\PCB REV C\BUILD\RT_SUPER_VariantName\RT_SUPER_VariantName Assembly Drawing.PDF
 OpenOutputs6=1
-RelativeOutputPath7=C:\ELI\rt_super\PCB REV B\BUILD\RT_SUPER-[VariantName]\
+RelativeOutputPath7=C:\ELI\rt_super\PCB REV C\BUILD\RT_SUPER_VariantName\
 OpenOutputs7=1
 AddToProject7=1
 TimestampFolder7=0
