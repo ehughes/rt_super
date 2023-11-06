@@ -6,11 +6,13 @@ The SuperMonkey is in a prototype state.   Use at your own risk.
 
 ### Latest Revision - Navigation ###
 
-The latest revision is PCB Rev B. 
+The revisions is are PCB Rev B1 and PCB Rev C. 
+
+Rev C is a new formfactor with more pins and integrated OCTAL PSRAM
 
 The design files are in Altium v21 format.
 
-.pdf Schematics are located in "PCB REV B\SCHEMATICS\RT_SUPER-[B]"
+
 
 
 ### History/Notes
@@ -19,5 +21,16 @@ The design files are in Altium v21 format.
 
 - 1st official prototype.   Rev A was dispositioned.
 
+#### PCB REV B:
 
+- 1st official prototype.   Rev A was dispositioned.
 
+#### PCB REV B1:
+
+- Minor Fix to the I2C PMIC Interface
+- Font Fixes
+
+#### PCB REV C:
+
+- New Form Factor MK-76 PGA
+- No Onboard flash.  Octal PSRA<>
