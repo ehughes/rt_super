@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [MK76_HOST__A.pcbdoc]
+   Generated File[MK76_HOST_A-RoundHoles.TXT]
+   Generated File[MK76_HOST_A-SlotHoles.TXT]
+   Generated File[MK76_HOST_A.LDP]
+   Generated File[MK76_HOST_A.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 5:09:03 PM On 11/18/2023

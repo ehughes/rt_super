@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\ELI\rt_super\MK76-HOST\tracks\A\MK76_HOST__A.pcbdoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=mk76_host_a-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=mk76_host_a-slotholes.txt|DrillLayers=gtl,g1,g2,gbl
