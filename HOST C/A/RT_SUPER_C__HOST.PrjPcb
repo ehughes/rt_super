@@ -202,23 +202,6 @@ GenerateClassCluster=0
 DocumentUniqueId=QDTOKLAD
 
 [Document10]
-DocumentPath=RT_SUPER_C__HOST.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZUDBQMOD
-
-[Document11]
 DocumentPath=RT_SUPER_C__HOST.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -246,6 +229,10 @@ Variation2=Designator=R?|UniqueId=\AHYXKQLI\AXHLNVKA|Kind=1|AlternatePart=
 Variation3=Designator=R?|UniqueId=\AHYXKQLI\ERTTGLYN|Kind=1|AlternatePart= 
 Variation4=Designator=R?|UniqueId=\AHYXKQLI\YGEAVVPU|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ARL_ANSI_D\Design Rule Check - RT_SUPER_C__HOST.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=APPROVAL_APPROVED_1
