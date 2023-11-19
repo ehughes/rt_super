@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:47:44 AM On 11/19/2023
+
+Output: CCA BOM CSV
+Type  : BOM
+From  : Variant [A] of Project [RT_SUPER__MK76__A.PrjPcb]
+   Generated File[RT_SUPER__MK_76__BOM__A.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:47:47 AM On 11/19/2023
