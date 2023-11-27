@@ -42,7 +42,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=C
+CurrentVariant=A
 
 [Preferences]
 PrefsVaultGUID=
@@ -66,7 +66,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=RT_SUPER.PCBDwf
+DocumentPath=RT_SUPER__MK76__ASSY__A.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HFZUVVYS
 
 [Document3]
-DocumentPath=RT_SUPER PCB Drawing.PCBDwf
+DocumentPath=RT_SUPER__MK76__FAB__A.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -100,7 +100,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SYSUCSBO
 
 [Document4]
-DocumentPath=RT_SUPER_C.PCBdoc
+DocumentPath=RT_SUPER__MK76__A.PCBdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -117,7 +117,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PHOBRBXQ
 
 [Document5]
-DocumentPath=RT_SUPER_C.SchDoc
+DocumentPath=RT_SUPER__MK76__A.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -134,7 +134,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PXXRLNQN
 
 [Document6]
-DocumentPath=RT_SUPER_C.BomDoc
+DocumentPath=RT_SUPER__MK76__A.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -150,9 +150,43 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=RT_SUPER__MK76__A.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KOQGQOOE
+
+[Document8]
+DocumentPath=RT_SUPER__MK76__A.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UHSYMMGE
+
 [ProjectVariant1]
 UniqueID=1443ADA5-1BBF-4E88-B31C-93B750D06A4C
-Description=C
+Description=A
 AllowFabrication=0
 ParameterCount=0
 VariationCount=3
@@ -162,164 +196,164 @@ Variation3=Designator=R18|UniqueId=\WKOTYOQR|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=APPROVAL_APPROVED_1
-Value=-
+Name=SCH_DATE
+Value=2021-09-02
 
 [Parameter2]
-Name=APPROVAL_APPROVED_1_DATE
-Value=-
+Name=PROJECT_TITLE_LINE_1
+Value=RT_SUPER__MK76
 
 [Parameter3]
-Name=APPROVAL_APPROVED_2
-Value=-
-
-[Parameter4]
-Name=APPROVAL_APPROVED_2_DATE
-Value=-
-
-[Parameter5]
-Name=APPROVAL_CHECKED
-Value=
-
-[Parameter6]
-Name=APPROVAL_CHECKED_DATE
-Value=-
-
-[Parameter7]
-Name=APPROVAL_DRAWN
-Value=-
-
-[Parameter8]
-Name=APPROVAL_DRAWN_DATE
-Value=-
-
-[Parameter9]
-Name=APPROVAL_ENGINEER
-Value=-
-
-[Parameter10]
-Name=APPROVAL_ENGINEER_DATE
-Value=-
-
-[Parameter11]
-Name=APPROVAL_REVIEWED
-Value=-
-
-[Parameter12]
-Name=APPROVAL_REVIEWED_DATE
-Value=-
-
-[Parameter13]
-Name=BOM_NOTES_LINE_1
-Value=-
-
-[Parameter14]
-Name=BOM_NOTES_LINE_2
-Value=-
-
-[Parameter15]
-Name=BOM_NOTES_LINE_3
-Value=-
-
-[Parameter16]
-Name=BOM_NOTES_LINE_4
-Value=-
-
-[Parameter17]
-Name=CCA_PART_NUMBER
-Value=RT_SUPER
-
-[Parameter18]
-Name=CCA_TITLE
-Value=RT_SUPER
-
-[Parameter19]
-Name=PCB_COPPER_WEIGHT_INNER
-Value=1oz
-
-[Parameter20]
-Name=PCB_COPPER_WEIGHT_OUTER
-Value=1oz
-
-[Parameter21]
-Name=PCB_DRC_DATE
-Value=X
-
-[Parameter22]
-Name=PCB_FINISH_PLATING
-Value=GOLD ENIG
-
-[Parameter23]
-Name=PCB_FINISHED_THICKNESS
-Value=31.25
-
-[Parameter24]
-Name=PCB_LAYERS
-Value=4
-
-[Parameter25]
-Name=PCB_MATERIAL
-Value=FR4
-
-[Parameter26]
-Name=PCB_MIN_DRILL
-Value=6
-
-[Parameter27]
-Name=PCB_MIN_TRACE_SPACE
-Value=5
-
-[Parameter28]
-Name=PCB_MIN_TRACE_WIDTH
-Value=5
-
-[Parameter29]
-Name=PCB_PART_NUMBER
-Value=RT_SUPER
-
-[Parameter30]
-Name=PCB_PRINTOUT_SCALE
-Value=1:1
-
-[Parameter31]
-Name=PCB_SILKSCREEN_COLOR_BOTTOM
-Value=WHITE
-
-[Parameter32]
-Name=PCB_SILKSCREEN_COLOR_TOP
-Value=WHITE
-
-[Parameter33]
-Name=PCB_SOLDER_MASK_COLOR_BOTTOM
-Value=BLACK
-
-[Parameter34]
-Name=PCB_SOLDER_MASK_COLOR_TOP
-Value=BLACK
-
-[Parameter35]
-Name=PCB_TITLE
-Value=RT_SUPER
-
-[Parameter36]
-Name=PCB_VERSION
-Value=C
-
-[Parameter37]
-Name=PROJECT_ENGINEER
-Value=E. Hughes
-
-[Parameter38]
 Name=PROJECT_STATUS
 Value=PROTOTYPE
 
+[Parameter4]
+Name=PROJECT_ENGINEER
+Value=E. Hughes
+
+[Parameter5]
+Name=PCB_VERSION
+Value=A
+
+[Parameter6]
+Name=PCB_TITLE
+Value=RT_SUPER__MK76
+
+[Parameter7]
+Name=PCB_SOLDER_MASK_COLOR_TOP
+Value=BLACK
+
+[Parameter8]
+Name=PCB_SOLDER_MASK_COLOR_BOTTOM
+Value=BLACK
+
+[Parameter9]
+Name=PCB_SILKSCREEN_COLOR_TOP
+Value=WHITE
+
+[Parameter10]
+Name=PCB_SILKSCREEN_COLOR_BOTTOM
+Value=WHITE
+
+[Parameter11]
+Name=PCB_PRINTOUT_SCALE
+Value=1:1
+
+[Parameter12]
+Name=PCB_PART_NUMBER
+Value=RT_SUPER__MK76
+
+[Parameter13]
+Name=PCB_MIN_TRACE_WIDTH
+Value=5
+
+[Parameter14]
+Name=PCB_MIN_TRACE_SPACE
+Value=5
+
+[Parameter15]
+Name=PCB_MIN_DRILL
+Value=6
+
+[Parameter16]
+Name=PCB_MATERIAL
+Value=FR4
+
+[Parameter17]
+Name=PCB_LAYERS
+Value=4
+
+[Parameter18]
+Name=PCB_FINISH_PLATING
+Value=GOLD ENIG
+
+[Parameter19]
+Name=PCB_FINISHED_THICKNESS
+Value=31.25
+
+[Parameter20]
+Name=PCB_DRC_DATE
+Value=X
+
+[Parameter21]
+Name=PCB_COPPER_WEIGHT_OUTER
+Value=1oz
+
+[Parameter22]
+Name=PCB_COPPER_WEIGHT_INNER
+Value=1oz
+
+[Parameter23]
+Name=CCA_TITLE
+Value=RT_SUPER__MK76
+
+[Parameter24]
+Name=CCA_PART_NUMBER
+Value=RT_SUPER__MK76
+
+[Parameter25]
+Name=BOM_NOTES_LINE_4
+Value=-
+
+[Parameter26]
+Name=BOM_NOTES_LINE_3
+Value=-
+
+[Parameter27]
+Name=BOM_NOTES_LINE_2
+Value=-
+
+[Parameter28]
+Name=BOM_NOTES_LINE_1
+Value=-
+
+[Parameter29]
+Name=APPROVAL_REVIEWED_DATE
+Value=-
+
+[Parameter30]
+Name=APPROVAL_REVIEWED
+Value=-
+
+[Parameter31]
+Name=APPROVAL_ENGINEER_DATE
+Value=-
+
+[Parameter32]
+Name=APPROVAL_ENGINEER
+Value=-
+
+[Parameter33]
+Name=APPROVAL_DRAWN_DATE
+Value=-
+
+[Parameter34]
+Name=APPROVAL_DRAWN
+Value=-
+
+[Parameter35]
+Name=APPROVAL_CHECKED_DATE
+Value=-
+
+[Parameter36]
+Name=APPROVAL_CHECKED
+Value=
+
+[Parameter37]
+Name=APPROVAL_APPROVED_2_DATE
+Value=-
+
+[Parameter38]
+Name=APPROVAL_APPROVED_2
+Value=-
+
 [Parameter39]
-Name=PROJECT_TITLE_LINE_1
-Value=RT_SUPER
+Name=APPROVAL_APPROVED_1_DATE
+Value=-
 
 [Parameter40]
-Name=SCH_DATE
-Value=2021-09-02
+Name=APPROVAL_APPROVED_1
+Value=-
 
 [Configuration1]
 Name=Default Configuration
@@ -1386,16 +1420,196 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=eIC.SchLib
-ComponentDesignItemID0=PCA9420BSAZ
-ComponentSymbolReference0=PCA9420BSAZ
+ComponentLibraryIdentifier0=Capacitors - Murata - AEC-Q200.DbLib
+ComponentDesignItemID0=GCJ188C70J475KE02D
+ComponentSymbolReference0=C_2P_NP
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Capacitors - Murata - AEC-Q200.DbLib
+ComponentDesignItemID1=GCM155C71A105KE38D
+ComponentSymbolReference1=C_2P_NP
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Capacitors - Murata - AEC-Q200.DbLib
+ComponentDesignItemID2=GCM188R70J225KE22D
+ComponentSymbolReference2=C_2P_NP
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Capacitors - Murata - AEC-Q200.DbLib
+ComponentDesignItemID3=GCQ1555C1H9R5BB01D
+ComponentSymbolReference3=C_2P_NP
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Capacitors - Murata - AEC-Q200.DbLib
+ComponentDesignItemID4=GRT155R61E474KE01D
+ComponentSymbolReference4=C_2P_NP
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Capacitors - Murata - AEC-Q200.DbLib
+ComponentDesignItemID5=GRT188R61A106ME13D
+ComponentSymbolReference5=C_2P_NP
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Capacitors - TDK- AEC-Q200.DbLib/C0402$
+ComponentDesignItemID6=CGA2B1X7R1C104K050BC
+ComponentSymbolReference6=C_2P_NP
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Capacitors - TDK- AEC-Q200.DbLib
+ComponentDesignItemID7=CGA2B2C0G1H180J050BA
+ComponentSymbolReference7=C_2P_NP
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Diodes.DbLib/Schottky$
+ComponentDesignItemID8=BAT760-7
+ComponentSymbolReference8=DS_1A_2C
+ComponentUpdate8=0
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=eCapacitors.SchLib
+ComponentDesignItemID9=CC0201KRX5R5BB104
+ComponentSymbolReference9=CC0201KRX5R5BB104
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=eConnector.SchLib
+ComponentDesignItemID10=CORTEX-DEBUG
+ComponentSymbolReference10=CORTEX-DEBUG
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=eConnector.SchLib
+ComponentDesignItemID11=SOLDER_HOLE
+ComponentSymbolReference11=SOLDER_HOLE
+ComponentUpdate11=0
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=eConnector_Debug.SchLib
+ComponentDesignItemID12=TC2030‐CTL‐NL
+ComponentSymbolReference12=TC2030‐CTL‐NL
+ComponentUpdate12=0
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=eCrystal.SchLib
+ComponentDesignItemID13=ABM3-24.000MHZ-B2-T
+ComponentSymbolReference13=ABM3-24.000MHZ-B2-T
+ComponentUpdate13=0
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=eCrystal.SchLib
+ComponentDesignItemID14=NX3215SA-32.768K-STD-MUA-9
+ComponentSymbolReference14=NX3215SA-32.768K-STD-MUA-9
+ComponentUpdate14=0
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=eDiode.SchLib
+ComponentDesignItemID15=APT1608CGCK
+ComponentSymbolReference15=APT1608CGCK
+ComponentUpdate15=0
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=eDiode.SchLib
+ComponentDesignItemID16=APT1608SURCK
+ComponentSymbolReference16=APT1608SURCK
+ComponentUpdate16=0
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=eDiode.SchLib
+ComponentDesignItemID17=PRTR5V0U2X,215
+ComponentSymbolReference17=PRTR5V0U2X,215
+ComponentUpdate17=0
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=eFiducial.SchLib
+ComponentDesignItemID18=Fiducial
+ComponentSymbolReference18=Fiducial
+ComponentUpdate18=0
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=eIC.SchLib
+ComponentDesignItemID19=APS6408L-3OBM-BA
+ComponentSymbolReference19=APS6408L-3OBM-BA
+ComponentUpdate19=0
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=eIC.SchLib
+ComponentDesignItemID20=MIMXRT685SFVKB
+ComponentSymbolReference20=MIMXRT685SFVKB
+ComponentUpdate20=0
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=eIC.SchLib
+ComponentDesignItemID21=PCA9420BSAZ
+ComponentSymbolReference21=PCA9420BSAZ
+ComponentUpdate21=0
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=eIC.SchLib
+ComponentDesignItemID22=SN74AUC1G07DBVR
+ComponentSymbolReference22=SN74AUC1G07DBVR
+ComponentUpdate22=0
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=eTestPoint.SchLib
+ComponentDesignItemID23=SMT_TEST
+ComponentSymbolReference23=SMT_TEST
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=Inductors.DbLib/Taiyo Yuden$
+ComponentDesignItemID24=NRH3012T2R2MN
+ComponentSymbolReference24=L_2P
+ComponentUpdate24=0
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=Resistors - Panasonic - AEC-Q200.DbLib/1%$
+ComponentDesignItemID25=ERJ-2RKF2002X
+ComponentSymbolReference25=R_2P
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=Resistors - Panasonic - AEC-Q200.DbLib/1%$
+ComponentDesignItemID26=ERJ-2RKF2201X
+ComponentSymbolReference26=R_2P
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=Resistors - Panasonic - AEC-Q200.DbLib
+ComponentDesignItemID27=ERJ-2GE0R00X
+ComponentSymbolReference27=R_2P
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Resistors - Panasonic - AEC-Q200.DbLib
+ComponentDesignItemID28=ERJ-2RKF1001X
+ComponentSymbolReference28=R_2P
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=Resistors - Panasonic - AEC-Q200.DbLib
+ComponentDesignItemID29=ERJ-2RKF1002X
+ComponentSymbolReference29=R_2P
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=Resistors - Panasonic - AEC-Q200.DbLib
+ComponentDesignItemID30=ERJ-2RKF1003X
+ComponentSymbolReference30=R_2P
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1409,41 +1623,472 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Check_prices
+ParameterName0=Applications
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Assembly Notes
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Availability
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Bidirectional Channels
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Capacitance
 ParameterUpdate4=1
-ParameterName5=Manufacturer
+ParameterName5=Capacitance @ Frequency
 ParameterUpdate5=1
-ParameterName6=Manufacturer Part Number
+ParameterName6=Capacitance @ Vr- F
 ParameterUpdate6=1
-ParameterName7=Pricing
+ParameterName7=Case Code (Imperial)
 ParameterUpdate7=1
-ParameterName8=RoHS
+ParameterName8=Case Code (Metric)
 ParameterUpdate8=1
-ParameterName9=RoHS Compliant
+ParameterName9=Case/Package
 ParameterUpdate9=1
-ParameterName10=SnapEDA_Link
+ParameterName10=Category
 ParameterUpdate10=1
-ParameterName11=Stock
+ParameterName11=CategorySort
 ParameterUpdate11=1
-ParameterName12=Supplier 1
+ParameterName12=Check_prices
 ParameterUpdate12=1
-ParameterName13=Supplier Part Number 1
+ParameterName13=Color
 ParameterUpdate13=1
-ParameterName14=Value
+ParameterName14=Comment
 ParameterUpdate14=1
+ParameterName15=Component Kind
+ParameterUpdate15=1
+ParameterName16=ComponentLink1Description
+ParameterUpdate16=1
+ParameterName17=ComponentLink1URL
+ParameterUpdate17=1
+ParameterName18=ComponentLink2Description
+ParameterUpdate18=1
+ParameterName19=ComponentLink2URL
+ParameterUpdate19=1
+ParameterName20=ComponentLink3Description
+ParameterUpdate20=1
+ParameterName21=ComponentLink3URL
+ParameterUpdate21=1
+ParameterName22=ComponentLink4Description
+ParameterUpdate22=1
+ParameterName23=ComponentLink4URL
+ParameterUpdate23=1
+ParameterName24=ComponentLink5Description
+ParameterUpdate24=1
+ParameterName25=ComponentLink5URL
+ParameterUpdate25=1
+ParameterName26=ComponentLink6Description
+ParameterUpdate26=1
+ParameterName27=ComponentLink6URL
+ParameterUpdate27=1
+ParameterName28=Composition
+ParameterUpdate28=1
+ParameterName29=Current - Average Rectified (Io)
+ParameterUpdate29=1
+ParameterName30=Current - Peak Pulse (10/1000µs)
+ParameterUpdate30=1
+ParameterName31=Current - Reverse Leakage @ Vr
+ParameterUpdate31=1
+ParameterName32=Current - Test
+ParameterUpdate32=1
+ParameterName33=DCR Max (Ohms)
+ParameterUpdate33=1
+ParameterName34=Depth
+ParameterUpdate34=1
+ParameterName35=Description
+ParameterUpdate35=1
+ParameterName36=Dielectric
+ParameterUpdate36=1
+ParameterName37=Diode Suffix
+ParameterUpdate37=1
+ParameterName38=Diode Type
+ParameterUpdate38=1
+ParameterName39=ESR (Equivalent Series Resistance)
+ParameterUpdate39=1
+ParameterName40=Features
+ParameterUpdate40=1
+ParameterName41=Frequency
+ParameterUpdate41=1
+ParameterName42=Frequency Stability
+ParameterUpdate42=1
+ParameterName43=Frequency Tolerance
+ParameterUpdate43=1
+ParameterName44=Halogen Free
+ParameterUpdate44=1
+ParameterName45=Height
+ParameterUpdate45=1
+ParameterName46=Height (mm)
+ParameterUpdate46=1
+ParameterName47=High Level Output Current
+ParameterUpdate47=1
+ParameterName48=Inductance (uH)
+ParameterUpdate48=1
+ParameterName49=IRMS
+ParameterUpdate49=1
+ParameterName50=Isat (A)
+ParameterUpdate50=1
+ParameterName51=Lead Free
+ParameterUpdate51=1
+ParameterName52=Length
+ParameterUpdate52=1
+ParameterName53=Lens Style/Size
+ParameterUpdate53=1
+ParameterName54=Lens Type
+ParameterUpdate54=1
+ParameterName55=Library Reference
+ParameterUpdate55=1
+ParameterName56=Limiting Element Voltage
+ParameterUpdate56=1
+ParameterName57=Load Capacitance
+ParameterUpdate57=1
+ParameterName58=Logic Function
+ParameterUpdate58=1
+ParameterName59=Low Level Output Current
+ParameterUpdate59=1
+ParameterName60=Luminous Flux @ Current - Test
+ParameterUpdate60=1
+ParameterName61=Manufacturer
+ParameterUpdate61=1
+ParameterName62=Manufacturer Part Number
+ParameterUpdate62=1
+ParameterName63=Max Operating Temperature
+ParameterUpdate63=1
+ParameterName64=Max Supply Voltage
+ParameterUpdate64=1
+ParameterName65=Maximum Overload Voltage
+ParameterUpdate65=1
+ParameterName66=Maximum Working Voltage
+ParameterUpdate66=1
+ParameterName67=Millicandela Rating
+ParameterUpdate67=1
+ParameterName68=Min Operating Temperature
+ParameterUpdate68=1
+ParameterName69=Min Supply Voltage
+ParameterUpdate69=1
+ParameterName70=Mount
+ParameterUpdate70=1
+ParameterName71=Mounting Type
+ParameterUpdate71=1
+ParameterName72=Mouser_Link
+ParameterUpdate72=1
+ParameterName73=Num Pins
+ParameterUpdate73=1
+ParameterName74=Number of Bits
+ParameterUpdate74=1
+ParameterName75=Number of Bits per Element
+ParameterUpdate75=1
+ParameterName76=Number of Channels
+ParameterUpdate76=1
+ParameterName77=Number of Elements
+ParameterUpdate77=1
+ParameterName78=Number of Gates
+ParameterUpdate78=1
+ParameterName79=Number of Input Lines
+ParameterUpdate79=1
+ParameterName80=Number of Inputs
+ParameterUpdate80=1
+ParameterName81=Number of Output Lines
+ParameterUpdate81=1
+ParameterName82=Number of Outputs
+ParameterUpdate82=1
+ParameterName83=Number of Pins
+ParameterUpdate83=1
+ParameterName84=Number of Terminations
+ParameterUpdate84=1
+ParameterName85=Operating Mode
+ParameterUpdate85=1
+ParameterName86=Operating Temperature
+ParameterUpdate86=1
+ParameterName87=Package
+ParameterUpdate87=1
+ParameterName88=Package / Case
+ParameterUpdate88=1
+ParameterName89=Package Power
+ParameterUpdate89=1
+ParameterName90=Package Quantity
+ParameterUpdate90=1
+ParameterName91=Packaging
+ParameterUpdate91=1
+ParameterName92=Part Number
+ParameterUpdate92=1
+ParameterName93=Polarity
+ParameterUpdate93=1
+ParameterName94=Power - Peak Pulse
+ParameterUpdate94=1
+ParameterName95=Power (Watts)
+ParameterUpdate95=1
+ParameterName96=Power Line Protection
+ParameterUpdate96=1
+ParameterName97=Price
+ParameterUpdate97=1
+ParameterName98=Pricing
+ParameterUpdate98=1
+ParameterName99=Pricing 1
+ParameterUpdate99=1
+ParameterName100=Propagation Delay
+ParameterUpdate100=1
+ParameterName101=Purchase-URL
+ParameterUpdate101=1
+ParameterName102=Quiescent Current
+ParameterUpdate102=1
+ParameterName103=Radiation Hardening
+ParameterUpdate103=1
+ParameterName104=Rating
+ParameterUpdate104=1
+ParameterName105=Ratings
+ParameterUpdate105=1
+ParameterName106=REACH SVHC
+ParameterUpdate106=1
+ParameterName107=Resistance (Ohms)
+ParameterUpdate107=1
+ParameterName108=Resistor Type
+ParameterUpdate108=1
+ParameterName109=Reverse Recovery Time (trr)
+ParameterUpdate109=1
+ParameterName110=RoHS
+ParameterUpdate110=1
+ParameterName111=RoHS Compliant
+ParameterUpdate111=1
+ParameterName112=Series
+ParameterUpdate112=1
+ParameterName113=Shielding
+ParameterUpdate113=1
+ParameterName114=Size / Dimension
+ParameterUpdate114=1
+ParameterName115=SnapEDA_Link
+ParameterUpdate115=1
+ParameterName116=Sort Value
+ParameterUpdate116=1
+ParameterName117=Sort Value Package
+ParameterUpdate117=1
+ParameterName118=SortValue
+ParameterUpdate118=1
+ParameterName119=Speed
+ParameterUpdate119=1
+ParameterName120=SRF typ (MHz)
+ParameterUpdate120=1
+ParameterName121=Stock
+ParameterUpdate121=1
+ParameterName122=Stock 1
+ParameterUpdate122=1
+ParameterName123=Substitution Notes
+ParameterUpdate123=1
+ParameterName124=Supplier 1
+ParameterUpdate124=1
+ParameterName125=Supplier 2
+ParameterUpdate125=1
+ParameterName126=Supplier Device Package
+ParameterUpdate126=1
+ParameterName127=Supplier Package
+ParameterUpdate127=1
+ParameterName128=Supplier Part Number 1
+ParameterUpdate128=1
+ParameterName129=Supplier Part Number 2
+ParameterUpdate129=1
+ParameterName130=Supplier Unit Price 1
+ParameterUpdate130=1
+ParameterName131=Technology
+ParameterUpdate131=1
+ParameterName132=Temperature Coefficient
+ParameterUpdate132=1
+ParameterName133=Termination
+ParameterUpdate133=1
+ParameterName134=Thickness
+ParameterUpdate134=1
+ParameterName135=Thickness (Max)
+ParameterUpdate135=1
+ParameterName136=Tolerance
+ParameterUpdate136=1
+ParameterName137=Turn-On Delay Time
+ParameterUpdate137=1
+ParameterName138=Type
+ParameterUpdate138=1
+ParameterName139=Unidirectional Channels
+ParameterUpdate139=1
+ParameterName140=Value
+ParameterUpdate140=1
+ParameterName141=Viewing Angle
+ParameterUpdate141=1
+ParameterName142=Voltage - Breakdown (Min)
+ParameterUpdate142=1
+ParameterName143=Voltage - Clamping (Max) @ Ipp
+ParameterUpdate143=1
+ParameterName144=Voltage - DC Reverse (Vr) (Max)
+ParameterUpdate144=1
+ParameterName145=Voltage - Forward (Vf) (Max) @ If
+ParameterUpdate145=1
+ParameterName146=Voltage - Forward (Vf) Typ
+ParameterUpdate146=1
+ParameterName147=Voltage - Rated
+ParameterUpdate147=1
+ParameterName148=Voltage - Reverse Standoff (Typ)
+ParameterUpdate148=1
+ParameterName149=Voltage Rating
+ParameterUpdate149=1
+ParameterName150=Voltage Rating (DC)
+ParameterUpdate150=1
+ParameterName151=Wavelength - Dominant
+ParameterUpdate151=1
+ParameterName152=Wavelength - Peak
+ParameterUpdate152=1
+ParameterName153=Width
+ParameterUpdate153=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=PCA9420
+ModelName0=-
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=ABM3
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=BGA24C100P5X5_600X800X120
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=C0201_PERFECT
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=C0402_0.55MM_HD
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=C0402_0.55MM_LD
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=C0402_0.55MM_MD
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=C0603_0.90MM_HD
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=C0603_0.90MM_LD
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=C0603_0.90MM_MD
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=C0603_1.00MM_HD
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=C0603_1.00MM_LD
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=C0603_1.00MM_MD
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=CAPC0604X03L
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=CAPC0604X03M
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=CAPC0604X03N
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=D_SOD-323_P
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=Fiducial 1mm - 2mm
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=Fiducial Target
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=FTSH-105-01-F-DV-K-A
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=FTSH-105-04-F-DV - HD
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=FTSH-105-04-F-DV - HD - NO_STEP
+ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=L_NRH3012
+ModelUpdate22=1
+ModelType23=PCBLIB
+ModelName23=LED_0603 - GREEN
+ModelUpdate23=1
+ModelType24=PCBLIB
+ModelName24=LED_0603 - RED
+ModelUpdate24=1
+ModelType25=PCBLIB
+ModelName25=MACHINE_PIN_SOLDERHOLE
+ModelUpdate25=1
+ModelType26=PCBLIB
+ModelName26=PCA9420
+ModelUpdate26=1
+ModelType27=PCBLIB
+ModelName27=PERFECT_0402
+ModelUpdate27=1
+ModelType28=PCBLIB
+ModelName28=R0402_0.40MM_HD
+ModelUpdate28=1
+ModelType29=PCBLIB
+ModelName29=R0402_0.40MM_LD
+ModelUpdate29=1
+ModelType30=PCBLIB
+ModelName30=R0402_0.40MM_MD
+ModelUpdate30=1
+ModelType31=PCBLIB
+ModelName31=SMT_TP - 100
+ModelUpdate31=1
+ModelType32=PCBLIB
+ModelName32=SMT_TP - 20
+ModelUpdate32=1
+ModelType33=PCBLIB
+ModelName33=SMT_TP - 25
+ModelUpdate33=1
+ModelType34=PCBLIB
+ModelName34=SMT_TP - 25 x 50
+ModelUpdate34=1
+ModelType35=PCBLIB
+ModelName35=SMT_TP - 35
+ModelUpdate35=1
+ModelType36=PCBLIB
+ModelName36=SMT_TP - 50
+ModelUpdate36=1
+ModelType37=PCBLIB
+ModelName37=SMT_TP - 75
+ModelUpdate37=1
+ModelType38=PCBLIB
+ModelName38=SOLDER_HOLE -  12AWG
+ModelUpdate38=1
+ModelType39=PCBLIB
+ModelName39=SOLDER_HOLE -  12AWG - OBLONG
+ModelUpdate39=1
+ModelType40=PCBLIB
+ModelName40=SOLDER_HOLE -  14AWG
+ModelUpdate40=1
+ModelType41=PCBLIB
+ModelName41=SOLDER_HOLE -  18AWG
+ModelUpdate41=1
+ModelType42=PCBLIB
+ModelName42=SOLDER_HOLE -  22AWG
+ModelUpdate42=1
+ModelType43=PCBLIB
+ModelName43=SOLDER_HOLE -  24AWG
+ModelUpdate43=1
+ModelType44=PCBLIB
+ModelName44=SOT143B
+ModelUpdate44=1
+ModelType45=PCBLIB
+ModelName45=SOT23-5
+ModelUpdate45=1
+ModelType46=PCBLIB
+ModelName46=TC2030
+ModelUpdate46=1
+ModelType47=PCBLIB
+ModelName47=TC2030 DOUBLE SIDED
+ModelUpdate47=1
+ModelType48=PCBLIB
+ModelName48=TC2030 DOUBLE SIDED NO LATCH
+ModelUpdate48=1
+ModelType49=PCBLIB
+ModelName49=TC2030 NO LATCH
+ModelUpdate49=1
+ModelType50=PCBLIB
+ModelName50=VFBGA176
+ModelUpdate50=1
+ModelType51=PCBLIB
+ModelName51=XTAL_3215
+ModelUpdate51=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
