@@ -25,14 +25,13 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
-NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for ARL_ANSI_D
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -49,7 +48,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=RT_SUPER.OutJob
+DocumentPath=RT_SUPER__MK76__A.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -66,7 +65,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=RT_SUPER__MK76__ASSY__A.PCBDwf
+DocumentPath=RT_SUPER__MK76__A.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -80,26 +79,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HFZUVVYS
+DocumentUniqueId=PXXRLNQN
 
 [Document3]
-DocumentPath=RT_SUPER__MK76__FAB__A.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SYSUCSBO
-
-[Document4]
 DocumentPath=RT_SUPER__MK76__A.PCBdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,25 +98,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PHOBRBXQ
 
-[Document5]
-DocumentPath=RT_SUPER__MK76__A.SchDoc
+[Document4]
+DocumentPath=RT_SUPER__MK76__ASSY__A.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=PXXRLNQN
+DocumentUniqueId=HFZUVVYS
+
+[Document5]
+DocumentPath=RT_SUPER__MK76__FAB__A.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SYSUCSBO
 
 [Document6]
-DocumentPath=RT_SUPER__MK76__A.BomDoc
+DocumentPath=RT_SUPER.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -189,10 +188,11 @@ UniqueID=1443ADA5-1BBF-4E88-B31C-93B750D06A4C
 Description=A
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=R15|UniqueId=\QTUCRUVF|Kind=1|AlternatePart= 
 Variation2=Designator=R17|UniqueId=\ZCEKNHDI|Kind=1|AlternatePart= 
 Variation3=Designator=R18|UniqueId=\WKOTYOQR|Kind=1|AlternatePart= 
+Variation4=Designator=J2|UniqueId=\VUHFPCYY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -204,6 +204,146 @@ Name=PROJECT_TITLE_LINE_1
 Value=RT_SUPER__MK76
 
 [Parameter3]
+Name=APPROVAL_APPROVED_2
+Value=-
+
+[Parameter4]
+Name=APPROVAL_APPROVED_2_DATE
+Value=-
+
+[Parameter5]
+Name=APPROVAL_CHECKED
+Value=
+
+[Parameter6]
+Name=APPROVAL_CHECKED_DATE
+Value=-
+
+[Parameter7]
+Name=APPROVAL_DRAWN
+Value=-
+
+[Parameter8]
+Name=APPROVAL_DRAWN_DATE
+Value=-
+
+[Parameter9]
+Name=APPROVAL_ENGINEER
+Value=-
+
+[Parameter10]
+Name=APPROVAL_ENGINEER_DATE
+Value=-
+
+[Parameter11]
+Name=APPROVAL_REVIEWED
+Value=-
+
+[Parameter12]
+Name=APPROVAL_REVIEWED_DATE
+Value=-
+
+[Parameter13]
+Name=BOM_NOTES_LINE_1
+Value=-
+
+[Parameter14]
+Name=BOM_NOTES_LINE_2
+Value=-
+
+[Parameter15]
+Name=BOM_NOTES_LINE_3
+Value=-
+
+[Parameter16]
+Name=BOM_NOTES_LINE_4
+Value=-
+
+[Parameter17]
+Name=CCA_PART_NUMBER
+Value=RT_SUPER__MK_76
+
+[Parameter18]
+Name=CCA_TITLE
+Value=RT_SUPER__MK_76
+
+[Parameter19]
+Name=PCB_COPPER_WEIGHT_INNER
+Value=1oz
+
+[Parameter20]
+Name=PCB_COPPER_WEIGHT_OUTER
+Value=1oz
+
+[Parameter21]
+Name=PCB_DRC_DATE
+Value=X
+
+[Parameter22]
+Name=PCB_FINISH_PLATING
+Value=GOLD ENIG
+
+[Parameter23]
+Name=PCB_FINISHED_THICKNESS
+Value=31.25
+
+[Parameter24]
+Name=PCB_LAYERS
+Value=4
+
+[Parameter25]
+Name=PCB_MATERIAL
+Value=FR4
+
+[Parameter26]
+Name=PCB_MIN_DRILL
+Value=6
+
+[Parameter27]
+Name=PCB_MIN_TRACE_SPACE
+Value=5
+
+[Parameter28]
+Name=PCB_MIN_TRACE_WIDTH
+Value=5
+
+[Parameter29]
+Name=PCB_PART_NUMBER
+Value=RT_SUPER__MK_76
+
+[Parameter30]
+Name=PCB_PRINTOUT_SCALE
+Value=1:1
+
+[Parameter31]
+Name=PCB_SILKSCREEN_COLOR_BOTTOM
+Value=WHITE
+
+[Parameter32]
+Name=PCB_SILKSCREEN_COLOR_TOP
+Value=WHITE
+
+[Parameter33]
+Name=PCB_SOLDER_MASK_COLOR_BOTTOM
+Value=BLACK
+
+[Parameter34]
+Name=PCB_SOLDER_MASK_COLOR_TOP
+Value=BLACK
+
+[Parameter35]
+Name=PCB_TITLE
+Value=RT_SUPER__MK_76
+
+[Parameter36]
+Name=PCB_VERSION
+Value=A
+
+[Parameter37]
+Name=PROJECT_ENGINEER
+Value=E. Hughes
+
+[Parameter38]
 Name=PROJECT_STATUS
 Value=PROTOTYPE
 
@@ -348,12 +488,12 @@ Name=APPROVAL_APPROVED_2
 Value=-
 
 [Parameter39]
-Name=APPROVAL_APPROVED_1_DATE
-Value=-
+Name=PROJECT_TITLE_LINE_1
+Value=RT_SUPER__MK_76
 
 [Parameter40]
-Name=APPROVAL_APPROVED_1
-Value=-
+Name=SCH_DATE
+Value=2023-11-18
 
 [Configuration1]
 Name=Default Configuration
@@ -366,7 +506,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for ARL_ANSI_D
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -585,18 +725,6 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType14=PCBDrawing
-OutputName14=Draftsman
-OutputDocumentPath14=
-OutputVariantName14=[No Variations]
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType15=PCBDrawing
-OutputName15=Draftsman
-OutputDocumentPath15=
-OutputVariantName15=[No Variations]
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -964,36 +1092,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1127,22 +1225,6 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
-Type121=1
-Type122=1
-Type123=1
-Type124=1
-Type125=1
-Type126=1
-Type127=1
-Type128=1
-Type129=1
-Type130=1
-Type131=1
-Type132=1
-Type133=1
-Type134=1
-Type135=1
-Type136=1
 
 [Difference Levels]
 Type1=1
@@ -1213,12 +1295,6 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
-Type69=1
-Type70=1
-Type71=1
-Type72=1
-Type73=1
-Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1340,38 +1416,12 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
-Type126=1
 Type127=1
-Type128=2
-Type129=2
-Type130=2
-Type131=2
-Type132=2
-Type133=2
-Type134=2
-Type135=2
-Type136=2
-Type137=2
-Type138=1
-Type139=1
-Type140=1
-Type141=1
-Type142=1
-Type143=1
-Type144=1
-Type145=1
-Type146=1
-Type147=2
-Type148=2
-Type149=2
-Type150=2
-Type151=2
 
 [ERC Connection Matrix]
 L1=WNNNNNNWNENEWNNEE
