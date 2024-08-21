@@ -104,7 +104,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SYSUCSBO
 
 [Document4]
-DocumentPath=RT_SUPER_MK90.PCBdoc
+DocumentPath=RT_SUPER_MK84.PCBdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
