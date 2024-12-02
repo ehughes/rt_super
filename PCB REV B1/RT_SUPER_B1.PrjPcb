@@ -32,12 +32,10 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
 OutputPath=Project Outputs for ARL_ANSI_D
 LogFolderPath=
-ManagedProjectGUID=D298072F-725F-47E8-B3D9-E7B860FA2FE8
-VaultGUID=369AD0F2-69E1-475C-957B-D3B6909ED6F2
-ReleaseVaultName=Wavenumber LLC
-ItemGUID=D298072F-725F-47E8-B3D9-E7B860FA2FE8
+ManagedProjectGUID=
 Template=C:\Users\ehugh\OneDrive - TZero Research and Development\eLibraries\Templates\Project\2 Layer TZERO Skeleton Project.PrjPcb
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
@@ -137,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PHOBRBXQ
 
 [ProjectVariant1]
-UniqueID=1443ADA5-1BBF-4E88-B31C-93B750D06A4C
+UniqueId=1443ADA5-1BBF-4E88-B31C-93B750D06A4C
 Description=B
 AllowFabrication=0
 ParameterCount=0
@@ -145,164 +143,164 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=SCH_DATE
-Value=2021-09-02
+Name=APPROVAL_APPROVED_1
+Value=-
 
 [Parameter2]
-Name=PROJECT_TITLE_LINE_1
-Value=RT_SUPER
-
-[Parameter3]
-Name=PROJECT_STATUS
-Value=PROTOTYPE
-
-[Parameter4]
-Name=PROJECT_ENGINEER
-Value=E. Hughes
-
-[Parameter5]
-Name=PCB_VERSION
-Value=B1
-
-[Parameter6]
-Name=PCB_TITLE
-Value=RT_SUPER
-
-[Parameter7]
-Name=PCB_SOLDER_MASK_COLOR_TOP
-Value=BLACK
-
-[Parameter8]
-Name=PCB_SOLDER_MASK_COLOR_BOTTOM
-Value=BLACK
-
-[Parameter9]
-Name=PCB_SILKSCREEN_COLOR_TOP
-Value=WHITE
-
-[Parameter10]
-Name=PCB_SILKSCREEN_COLOR_BOTTOM
-Value=WHITE
-
-[Parameter11]
-Name=PCB_PRINTOUT_SCALE
-Value=1:1
-
-[Parameter12]
-Name=PCB_PART_NUMBER
-Value=RT_SUPER
-
-[Parameter13]
-Name=PCB_MIN_TRACE_WIDTH
-Value=5
-
-[Parameter14]
-Name=PCB_MIN_TRACE_SPACE
-Value=5
-
-[Parameter15]
-Name=PCB_MIN_DRILL
-Value=6
-
-[Parameter16]
-Name=PCB_MATERIAL
-Value=FR4
-
-[Parameter17]
-Name=PCB_LAYERS
-Value=4
-
-[Parameter18]
-Name=PCB_FINISH_PLATING
-Value=GOLD ENIG
-
-[Parameter19]
-Name=PCB_FINISHED_THICKNESS
-Value=31.25
-
-[Parameter20]
-Name=PCB_DRC_DATE
-Value=X
-
-[Parameter21]
-Name=PCB_COPPER_WEIGHT_OUTER
-Value=1oz
-
-[Parameter22]
-Name=PCB_COPPER_WEIGHT_INNER
-Value=1oz
-
-[Parameter23]
-Name=CCA_TITLE
-Value=RT_SUPER
-
-[Parameter24]
-Name=CCA_PART_NUMBER
-Value=RT_SUPER
-
-[Parameter25]
-Name=BOM_NOTES_LINE_4
-Value=-
-
-[Parameter26]
-Name=BOM_NOTES_LINE_3
-Value=-
-
-[Parameter27]
-Name=BOM_NOTES_LINE_2
-Value=-
-
-[Parameter28]
-Name=BOM_NOTES_LINE_1
-Value=-
-
-[Parameter29]
-Name=APPROVAL_REVIEWED_DATE
-Value=-
-
-[Parameter30]
-Name=APPROVAL_REVIEWED
-Value=-
-
-[Parameter31]
-Name=APPROVAL_ENGINEER_DATE
-Value=-
-
-[Parameter32]
-Name=APPROVAL_ENGINEER
-Value=-
-
-[Parameter33]
-Name=APPROVAL_DRAWN_DATE
-Value=-
-
-[Parameter34]
-Name=APPROVAL_DRAWN
-Value=-
-
-[Parameter35]
-Name=APPROVAL_CHECKED_DATE
-Value=-
-
-[Parameter36]
-Name=APPROVAL_CHECKED
-Value=
-
-[Parameter37]
-Name=APPROVAL_APPROVED_2_DATE
-Value=-
-
-[Parameter38]
-Name=APPROVAL_APPROVED_2
-Value=-
-
-[Parameter39]
 Name=APPROVAL_APPROVED_1_DATE
 Value=-
 
-[Parameter40]
-Name=APPROVAL_APPROVED_1
+[Parameter3]
+Name=APPROVAL_APPROVED_2
 Value=-
+
+[Parameter4]
+Name=APPROVAL_APPROVED_2_DATE
+Value=-
+
+[Parameter5]
+Name=APPROVAL_CHECKED
+Value=
+
+[Parameter6]
+Name=APPROVAL_CHECKED_DATE
+Value=-
+
+[Parameter7]
+Name=APPROVAL_DRAWN
+Value=-
+
+[Parameter8]
+Name=APPROVAL_DRAWN_DATE
+Value=-
+
+[Parameter9]
+Name=APPROVAL_ENGINEER
+Value=-
+
+[Parameter10]
+Name=APPROVAL_ENGINEER_DATE
+Value=-
+
+[Parameter11]
+Name=APPROVAL_REVIEWED
+Value=-
+
+[Parameter12]
+Name=APPROVAL_REVIEWED_DATE
+Value=-
+
+[Parameter13]
+Name=BOM_NOTES_LINE_1
+Value=-
+
+[Parameter14]
+Name=BOM_NOTES_LINE_2
+Value=-
+
+[Parameter15]
+Name=BOM_NOTES_LINE_3
+Value=-
+
+[Parameter16]
+Name=BOM_NOTES_LINE_4
+Value=-
+
+[Parameter17]
+Name=CCA_PART_NUMBER
+Value=RT_SUPER
+
+[Parameter18]
+Name=CCA_TITLE
+Value=RT_SUPER
+
+[Parameter19]
+Name=PCB_COPPER_WEIGHT_INNER
+Value=1oz
+
+[Parameter20]
+Name=PCB_COPPER_WEIGHT_OUTER
+Value=1oz
+
+[Parameter21]
+Name=PCB_DRC_DATE
+Value=X
+
+[Parameter22]
+Name=PCB_FINISH_PLATING
+Value=GOLD ENIG
+
+[Parameter23]
+Name=PCB_FINISHED_THICKNESS
+Value=31.25
+
+[Parameter24]
+Name=PCB_LAYERS
+Value=4
+
+[Parameter25]
+Name=PCB_MATERIAL
+Value=FR4
+
+[Parameter26]
+Name=PCB_MIN_DRILL
+Value=6
+
+[Parameter27]
+Name=PCB_MIN_TRACE_SPACE
+Value=5
+
+[Parameter28]
+Name=PCB_MIN_TRACE_WIDTH
+Value=5
+
+[Parameter29]
+Name=PCB_PART_NUMBER
+Value=RT_SUPER
+
+[Parameter30]
+Name=PCB_PRINTOUT_SCALE
+Value=1:1
+
+[Parameter31]
+Name=PCB_SILKSCREEN_COLOR_BOTTOM
+Value=WHITE
+
+[Parameter32]
+Name=PCB_SILKSCREEN_COLOR_TOP
+Value=WHITE
+
+[Parameter33]
+Name=PCB_SOLDER_MASK_COLOR_BOTTOM
+Value=BLACK
+
+[Parameter34]
+Name=PCB_SOLDER_MASK_COLOR_TOP
+Value=BLACK
+
+[Parameter35]
+Name=PCB_TITLE
+Value=RT_SUPER
+
+[Parameter36]
+Name=PCB_VERSION
+Value=B1
+
+[Parameter37]
+Name=PROJECT_ENGINEER
+Value=E. Hughes
+
+[Parameter38]
+Name=PROJECT_STATUS
+Value=PROTOTYPE
+
+[Parameter39]
+Name=PROJECT_TITLE_LINE_1
+Value=RT_SUPER
+
+[Parameter40]
+Name=SCH_DATE
+Value=2021-09-02
 
 [Configuration1]
 Name=Default Configuration
@@ -447,7 +445,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
 OutputType2=PCB 3D Print
@@ -459,7 +457,7 @@ PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType3=PCB Print
 OutputName3=PCB Prints
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=1
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter (8.5 x 11 in)|PaperIndex=1
 Configuration3_Name1=OutputConfigurationParameter1
@@ -495,7 +493,7 @@ PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType7=PCBLIB Print
 OutputName7=PCBLIB Prints
 OutputDocumentPath7=
-OutputVariantName7=
+OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
 OutputType8=Report Print
@@ -534,18 +532,6 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType14=PCBDrawing
-OutputName14=Draftsman
-OutputDocumentPath14=
-OutputVariantName14=[No Variations]
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType15=PCBDrawing
-OutputName15=Draftsman
-OutputDocumentPath15=
-OutputVariantName15=[No Variations]
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -577,13 +563,13 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
 OutputType3=Final
@@ -600,7 +586,7 @@ OutputDefault4=0
 OutputType5=Mask
 OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
 OutputType6=NC Drill
@@ -616,7 +602,7 @@ OutputDefault7=0
 OutputType8=Plane
 OutputName8=Power-Plane Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
 OutputType9=Test Points
@@ -633,12 +619,12 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 OutputType11=Gerber X2
 OutputName11=Gerber X2 Files
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 OutputType12=IPC2581
 OutputName12=IPC-2581 Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 
 [OutputGroup6]
@@ -707,102 +693,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -913,6 +803,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1062,6 +982,20 @@ Type133=1
 Type134=1
 Type135=1
 Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
 
 [Difference Levels]
 Type1=1
@@ -1138,6 +1072,13 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1291,6 +1232,8 @@ Type148=2
 Type149=2
 Type150=2
 Type151=2
+Type152=1
+Type153=1
 
 [ERC Connection Matrix]
 L1=WNNNNNNWNENEWNNEE

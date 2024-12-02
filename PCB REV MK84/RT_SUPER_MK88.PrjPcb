@@ -505,7 +505,7 @@ OutputDefault1=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=EPSON ET-4700 Series
+TargetPrinter=ET-4700 Series(Network)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -526,15 +526,15 @@ OutputVariantName3=[No Variations]
 OutputDefault3=1
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter (8.5 x 11 in)|PaperIndex=1
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\ELI\rt_super\PCB REV C\RT_SUPER_C.PCBdoc
+Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\ELI\projects\Wavenumber\rt_super\PCB REV MK84\RT_SUPER_MK84.PCBdoc
 Configuration3_Name2=OutputConfigurationParameter2
-Configuration3_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=MultiLayer Default Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\ELI\rt_super\PCB REV C\RT_SUPER_C.PCBdoc
+Configuration3_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=MultiLayer Default Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\ELI\projects\Wavenumber\rt_super\PCB REV MK84\RT_SUPER_MK84.PCBdoc
 Configuration3_Name3=OutputConfigurationParameter3
-Configuration3_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\ELI\rt_super\PCB REV C\RT_SUPER_C.PCBdoc
+Configuration3_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\ELI\projects\Wavenumber\rt_super\PCB REV MK84\RT_SUPER_MK84.PCBdoc
 Configuration3_Name4=OutputConfigurationParameter4
-Configuration3_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\ELI\rt_super\PCB REV C\RT_SUPER_C.PCBdoc
+Configuration3_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\ELI\projects\Wavenumber\rt_super\PCB REV MK84\RT_SUPER_MK84.PCBdoc
 Configuration3_Name5=OutputConfigurationParameter5
-Configuration3_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical8|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\ELI\rt_super\PCB REV C\RT_SUPER_C.PCBdoc
+Configuration3_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical8|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\ELI\projects\Wavenumber\rt_super\PCB REV MK84\RT_SUPER_MK84.PCBdoc
 OutputType4=Schematic Print
 OutputName4=Schematic Prints
 OutputDocumentPath4=E:\Altium_Lib\Altium_Templates\ARL_ANSI_D\ARL_SHEET_1_ANSI-D.SchDoc
